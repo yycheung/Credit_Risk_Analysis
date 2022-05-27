@@ -31,11 +31,12 @@ First, we oversample the data using the RandomOverSampler and SMOTE algorithms, 
 
  ![](resources/images/eeac.png)
 
-<h3> Balanced Accuracy Score of different models</h3>
+ <h3> Balanced Accuracy Score of different models</h3>
 
  ![](resources/images/resemble.png)
   
  ![](resources/images/ensemble.png)
 
-
 ## Summary
+
+ After assessing all the six models, we found that none of them can have good precision on high risk loan. In terms of balanced accuracy score of all six models, Easy Ensemble Classifier is the most efficient one. Thus, we would recommend using Easy Ensemble Classifier to predict credit risk but suggest to improve the performance of precision on high risk loan.
